@@ -1,0 +1,150 @@
+/* === GOOGLE FONT IMPORT === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* === GLOBAL STYLES === */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 45px 40px;
+    background-color: #F5F5F5;
+}
+
+.dark-blue {
+    color: #2B283A;
+}
+
+.container {
+    margin-top: 35px;
+    max-width: 800px;
+}
+
+/* === HEADER STYLES === */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F55A5A;
+    padding: 15px 0;
+    user-select: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.header--logo {
+    width: 24px;
+}
+
+.header--text {
+    font-size: 1.2rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* === PLACES COMPONENT STYLES === */
+.place {
+    display: flex;
+    gap: 19px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #918E9B;
+    margin-bottom: 20px;
+}
+
+.place--image {
+    width: 14rem;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.place--info {
+    margin-top: 19px;
+}
+
+.google-map-icon {
+    width: 10px;
+}
+
+.place--location {
+    font-family: Inter, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-right: 12px;
+}
+
+.google-map-url {
+    color: #918E9B;
+    font-size: .8rem;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid #918E9B;
+}
+
+.place--title {
+    font-size: 2rem;
+    padding-bottom: 6px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.visiting--dates {
+    font-size: 1rem;
+    margin-bottom: 9px;
+}
+
+.place--description {
+    margin: 0;
+    max-width: 500px;
+    line-height: 1.3rem;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media screen and (max-width: 490px) {
+    .place {
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 16px;
+    }
+
+    .place--image {
+        width: 100%;
+    }
+
+    .place--info {
+        margin-top: 10px;
+    }
+
+    .place--location {
+        font-size: 0.8rem;
+    }
+
+    .visiting--dates {
+        font-size: 0.8rem;
+    }
+
+    .place--description {
+        line-height: 1.2rem;
+    }
+}
