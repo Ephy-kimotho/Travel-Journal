@@ -1,6 +1,6 @@
 # TRAVEL JOURNAL
 
-In this project I have built a  simple travel journal using React.
+I have built a simple travel journal app using React in this project.
 
 ## SCREENSHOT
 ![Screenshot](./src/assets/images/Travel-journal.png)
