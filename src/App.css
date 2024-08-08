@@ -4,6 +4,7 @@
 /* === GLOBAL STYLES === */
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 html,
@@ -68,8 +69,10 @@ main {
     margin-bottom: 20px;
 }
 
+
 .place--image {
     width: 14rem;
+    min-height: 100%;
     border-radius: 5px;
     object-fit: cover;
     object-position: center;
