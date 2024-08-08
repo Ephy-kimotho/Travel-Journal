@@ -12,7 +12,9 @@ function Place({
 }) {
   return (
     <section className="place">
-      <img src={imageURL} alt={title} className="place--image" />
+      <a href={googleMapsUrl} target="_blank">
+        <img src={imageURL} alt={title} className="place--image" />
+      </a>
 
       <div className="place--info">
         <div className="location-info-container">
