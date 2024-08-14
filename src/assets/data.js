@@ -13,7 +13,7 @@ const places = [
         id: "2",
         title: "Sydney opera house",
         location: "Australia",
-        googleMapsUrl: "https://www.google.com/maps/place/Sydney+Opera+House/",
+        googleMapsUrl: "https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567799,151.2127218,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967!16zL20vMDZfbm0?entry=ttu",
         startDate: "27 May, 2024",
         endDate: "8 June, 20204",
         description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
